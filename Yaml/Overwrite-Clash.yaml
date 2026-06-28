@@ -315,6 +315,11 @@ proxy-groups:
 #                 规则配置
 # =========================================
 rules:
+  - DOMAIN-SUFFIX,chengji-inc.com,全球直连
+  - DOMAIN-SUFFIX,jiancent.com,全球直连
+  - DOMAIN-SUFFIX,ry-inc.com,全球直连
+  - DOMAIN-SUFFIX,baikexm.com,全球直连
+  - DOMAIN-SUFFIX,91miaoshou.com,全球直连
   - RULE-SET,private,全球直连
   - RULE-SET,private_ip,全球直连,no-resolve
   - RULE-SET,giveup_direct,全球直连
