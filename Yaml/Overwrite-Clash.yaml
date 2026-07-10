@@ -320,6 +320,7 @@ proxy-groups:
 # =========================================
 rules:
   - DOMAIN-SUFFIX,chengji-inc.com,全球直连
+  - DOMAIN-SUFFIX,szchengji-inc.com,全球直连
   - DOMAIN-SUFFIX,qzfeiyu.com,全球直连
   - DOMAIN-SUFFIX,jiancent.com,全球直连
   - DOMAIN-SUFFIX,ry-inc.com,全球直连
