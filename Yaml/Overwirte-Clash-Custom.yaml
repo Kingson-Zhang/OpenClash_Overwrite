@@ -88,8 +88,8 @@ anchor:
     type: select
     include-all: true
     proxies:
-      - 香港节点
       - 美国节点
+      - 香港节点
       - 美国节点-备用
       - 日本节点
       - 新加坡节点
@@ -103,8 +103,8 @@ anchor:
   SelectMH: &SelectMH
     type: select
     proxies:
-      - 香港节点
       - 美国节点
+      - 香港节点
       - 美国节点-备用
       - 新加坡节点
       - 日本节点
@@ -240,15 +240,15 @@ proxy-groups:
     icon: "https://raw.githubusercontent.com/Giveupmoon/Clash_Rules_Yaml/main/Icon/HOMOMIX/Color/Large/Flight.png"
 
   - name: 即时通讯
-    <<: *SelectHK
+    <<: *SelectUS
     icon: "https://raw.githubusercontent.com/Giveupmoon/Clash_Rules_Yaml/main/Icon/HOMOMIX/Color/Large/Telegram.png"
 
   - name: 社交媒体
-    <<: *SelectHK
+    <<: *SelectUS
     icon: "https://raw.githubusercontent.com/Giveupmoon/Clash_Rules_Yaml/main/Icon/HOMOMIX/Color/Large/Twitter.png"
 
   - name: GitHub
-    <<: *SelectHK
+    <<: *SelectUS
     icon: "https://raw.githubusercontent.com/Giveupmoon/Clash_Rules_Yaml/main/Icon/HOMOMIX/Color/Large/GitHub.png"
 
   - name: ChatGPT
@@ -264,7 +264,7 @@ proxy-groups:
     icon: "https://raw.githubusercontent.com/Kingson-Zhang/OpenClash_Overwrite/main/Icon/sub2api.png"
 
   - name: Gemini
-    <<: *SelectHK
+    <<: *SelectUS
     icon: "https://raw.githubusercontent.com/Giveupmoon/Clash_Rules_Yaml/main/Icon/IconResource/App_icon/1024px/GoogleGemini.png"
 
   - name: AI服务
@@ -276,43 +276,43 @@ proxy-groups:
     icon: "https://raw.githubusercontent.com/Giveupmoon/Clash_Rules_Yaml/main/Icon/HOMOMIX/Color/Large/TikTok.png"
 
   - name: AppleTV+
-    <<: *SelectHK
+    <<: *SelectUS
     icon: "https://raw.githubusercontent.com/Giveupmoon/Clash_Rules_Yaml/main/Icon/HOMOMIX/Color/Large/Apple_TV.png"
 
   - name: YouTube
-    <<: *SelectSG
+    <<: *SelectUS
     icon: "https://raw.githubusercontent.com/Giveupmoon/Clash_Rules_Yaml/main/Icon/HOMOMIX/Color/Large/YouTube.png"
 
   - name: Netflix
-    <<: *SelectSG
+    <<: *SelectUS
     icon: "https://raw.githubusercontent.com/Giveupmoon/Clash_Rules_Yaml/main/Icon/HOMOMIX/Color/Large/Netflix.png"
 
   - name: DisneyPlus
-    <<: *SelectSG
+    <<: *SelectUS
     icon: "https://raw.githubusercontent.com/Giveupmoon/Clash_Rules_Yaml/main/Icon/HOMOMIX/Color/Large/Disney_plus.png"
 
   - name: HBO
-    <<: *SelectSG
+    <<: *SelectUS
     icon: "https://raw.githubusercontent.com/Giveupmoon/Clash_Rules_Yaml/main/Icon/HOMOMIX/Color/Large/HBO_MAX.png"
 
   - name: PrimeVideo
-    <<: *SelectSG
+    <<: *SelectUS
     icon: "https://raw.githubusercontent.com/Giveupmoon/Clash_Rules_Yaml/main/Icon/HOMOMIX/Color/Large/Prime.png"
 
   - name: Emby
-    <<: *SelectSG
+    <<: *SelectUS
     icon: "https://raw.githubusercontent.com/Giveupmoon/Clash_Rules_Yaml/main/Icon/HOMOMIX/Color/Large/Emby.png"
 
   - name: Spotify
-    <<: *SelectHK
+    <<: *SelectUS
     icon: "https://raw.githubusercontent.com/Giveupmoon/Clash_Rules_Yaml/main/Icon/HOMOMIX/Color/Large/Spotify.png"
 
   - name: Bahamut
-    <<: *SelectTW
+    <<: *SelectUS
     icon: "https://raw.githubusercontent.com/Giveupmoon/Clash_Rules_Yaml/main/Icon/HOMOMIX/Color/Large/Bahamut_i.png"
 
   - name: 国外媒体
-    <<: *SelectSG
+    <<: *SelectUS
     icon: "https://raw.githubusercontent.com/Giveupmoon/Clash_Rules_Yaml/main/Icon/HOMOMIX/Color/Large/Network.png"
 
   - name: PayPal
@@ -320,27 +320,27 @@ proxy-groups:
     icon: "https://raw.githubusercontent.com/Giveupmoon/Clash_Rules_Yaml/main/Icon/HOMOMIX/Color/Large/PayPal.png"
 
   - name: 谷歌服务
-    <<: *SelectHK
+    <<: *SelectUS
     icon: "https://raw.githubusercontent.com/Giveupmoon/Clash_Rules_Yaml/main/Icon/HOMOMIX/Color/Large/Google.png"
 
   - name: 苹果服务
-    <<: *SelectHK
+    <<: *SelectUS
     icon: "https://raw.githubusercontent.com/Giveupmoon/Clash_Rules_Yaml/main/Icon/HOMOMIX/Color/Large/Apple_black.png"
 
   - name: 微软服务
-    <<: *SelectHK
+    <<: *SelectUS
     icon: "https://raw.githubusercontent.com/Giveupmoon/Clash_Rules_Yaml/main/Icon/HOMOMIX/Color/Large/Microsoft.png"
 
   - name: 游戏平台
-    <<: *SelectHK
+    <<: *SelectUS
     icon: "https://raw.githubusercontent.com/Giveupmoon/Clash_Rules_Yaml/main/Icon/HOMOMIX/Color/Large/Game.png"
 
   - name: Steam
-    <<: *SelectHK
+    <<: *SelectUS
     icon: "https://raw.githubusercontent.com/Giveupmoon/Clash_Rules_Yaml/main/Icon/HOMOMIX/Color/Large/Steam.png"
 
   - name: 测速工具
-    <<: *SelectHK
+    <<: *SelectUS
     icon: "https://raw.githubusercontent.com/Giveupmoon/Clash_Rules_Yaml/main/Icon/HOMOMIX/Color/Large/SpeedTest.png"
 
   - name: 漏网之鱼
