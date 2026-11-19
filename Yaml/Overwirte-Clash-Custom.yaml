@@ -255,6 +255,10 @@ proxy-groups:
     <<: *SelectUS
     icon: "https://raw.githubusercontent.com/Giveupmoon/Clash_Rules_Yaml/main/Icon/HOMOMIX/Color/Large/ChatGPT.png"
 
+  - name: Claude
+    <<: *SelectUS
+    icon: "https://raw.githubusercontent.com/Kingson-Zhang/OpenClash_Overwrite/main/Icon/claude.png"
+
   - name: sub2api
     <<: *SelectUS
     icon: "https://raw.githubusercontent.com/Kingson-Zhang/OpenClash_Overwrite/main/Icon/sub2api.png"
@@ -402,6 +406,28 @@ rules:
   - DOMAIN-SUFFIX,91miaoshou.com,全球直连
   - RULE-SET,private,全球直连
   - RULE-SET,private_ip,全球直连,no-resolve
+  - DOMAIN-SUFFIX,anthropic.com,Claude
+  - DOMAIN-SUFFIX,claude.ai,Claude
+  - DOMAIN-SUFFIX,claude.com,Claude
+  - DOMAIN-SUFFIX,clau.de,Claude
+  - DOMAIN-SUFFIX,claudemcpclient.com,Claude
+  - DOMAIN-SUFFIX,claudemcpcontent.com,Claude
+  - DOMAIN-SUFFIX,claudeusercontent.com,Claude
+  - DOMAIN,servd-anthropic-website.b-cdn.net,Claude
+  - DOMAIN,anthropic.com.cdn.cloudflare.net,Claude
+  - DOMAIN,anthropic.auth0.com,Claude
+  - DOMAIN,anthropic-com.ghost.io,Claude
+  - DOMAIN-SUFFIX,sentry.io,Claude
+  - DOMAIN-SUFFIX,statsigapi.net,Claude
+  - DOMAIN,browser-intake-us5-datadoghq.com,Claude
+  - DOMAIN-KEYWORD,datadog,Claude
+  - DOMAIN-KEYWORD,sift,Claude
+  - DOMAIN-SUFFIX,intercom.io,Claude
+  - DOMAIN-SUFFIX,intercomcdn.com,Claude
+  - DOMAIN,cdn.usefathom.com,Claude
+  - IP-CIDR,160.79.104.0/21,Claude,no-resolve
+  - IP-CIDR6,2607:6bc0::/32,Claude,no-resolve
+  - IP-ASN,399358,Claude,no-resolve
   - RULE-SET,giveup_direct,全球直连
   - RULE-SET,giveup_proxy,手动选择
   - RULE-SET,Custom_Direct_Domain,全球直连
